@@ -1,0 +1,117 @@
+body{
+    background-color: #e3e7e8;
+    font-family: system-ui;
+}
+.container{
+    width: 1000px;
+    margin:auto;
+    transition: 0.5s;
+}
+#panier{
+    width: 50px;
+    height: 50px;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+}
+header .shopping{
+    position: relative;
+    text-align: right;
+}
+/* header .img{
+    width: 40px;
+} */
+header .shopping span{
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
+    }
+
+.container2 {
+    width: 1200px;
+    display: grid;   
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+.container2 .box {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 350px;
+    }
+.container2 .box img{
+    width: 200px    
+}
+.container2 .box button{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    
+}
+.card{
+    background-color: #413937;
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 500px;
+    right: 0;
+    height: 100%;
+    }
+
+
+    .card h1{
+    position: absolute;
+    left: 5%;
+    }
+.checkOut{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 900px;
+    align-items: flex-end;  
+    position: relative;
+    top: 237px;  
+}
+     .total {
+    background-color: #ac8304;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 250px;
+    height: 150px;
+    font-size: 40px;
+    }
+     .closeShopping{
+        background-color: rgb(199, 22, 22);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 250px;
+        height: 150px;
+        font-size: 40px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+
+
